@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: ihww
 subtitle:
 description:
-author: John Doe
+author: ihuangweiwei
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://blog.ihww.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -69,3 +69,22 @@ theme: yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: true
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
