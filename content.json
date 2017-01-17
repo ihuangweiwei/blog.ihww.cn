@@ -1,0 +1,1 @@
+[{"title":"RPC框架原理","date":"2016-07-04T09:12:22.000Z","path":"2016/07/04/RPC框架原理/","text":"Remote Procedure Call 原理图核心概念：远程代理对象（通过JDK动态代理的拦截机制，将本地调用封装称远程调用服务） 扩展内容：通信协议、序列化（网络传输问题） 示例代码","tags":[{"name":"分布式","slug":"分布式","permalink":"http://blog.ihww.cn/tags/分布式/"}]}]
